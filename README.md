@@ -1,108 +1,54 @@
-# 🚆 Metro Rail Management System (Tkinter)
+☕ Coffee Shop Management System (Tkinter)
 
-A simple desktop application built using **Python Tkinter** to manage metro rail ticket booking. This project demonstrates basic GUI development, object-oriented programming, and data handling in Python.
+A simple desktop application built with Python Tkinter to manage coffee orders. This project demonstrates basic GUI development, event handling, and data management using Python.
 
----
-
-## 📌 Features
-
-* 🎫 Book tickets with passenger details
-* 🗑️ Delete selected tickets
-* 🔍 Search tickets by passenger name
-* 📋 View all booked tickets
-* 💰 Calculate total fare
-* 🎓 Student discount (50% off)
-
----
-
-## 🛠️ Technologies Used
-
-* Python 3
-* Tkinter (GUI)
-* Object-Oriented Programming (OOP)
-
----
-
-## 📂 Project Structure
-
-```
-metro-system/
-│── coffie.py        # Main application file
-│── README.md      # Project documentation
-```
-
----
-
-## ▶️ How to Run
-
-1. Install Python (if not installed)
-2. Download or clone the repository
-3. Open terminal / command prompt
-4. Run the program:
-
-```bash
+📌 Features
+Select coffee from a predefined menu
+Specify quantity for each coffee
+Add orders to a list
+Remove selected orders
+Calculate total bill automatically
+🛠️ Technologies Used
+Python 3
+Tkinter (GUI)
+Basic object-oriented programming
+📂 Project Structure
+coffee-shop/
+│── coffie.py       # Main application file
+│── README.md     # Project documentation
+▶️ How to Run
+Install Python (if not installed)
+Download or clone the repository
+Open terminal / command prompt
+Run the program:
 python coffie.py
-```
-
----
-
-## 🖥️ How It Works
-
-1. Enter passenger details:
-
-   * Name
-   * Train
-   * Start station
-   * End station
-   * Fare
-   * Passenger type
-
-2. Click **Book Ticket**
-
-3. Use buttons to:
-
-   * Delete selected ticket
-   * Search by name
-   * Show all tickets
-   * View total fare
-
----
-
-## ⚠️ Validation Rules
-
-* All fields must be filled
-* Start and End station cannot be the same
-* Fare must be a positive number
-
----
-
-## 🎯 Learning Purpose
+🖥️ How It Works
+Select a coffee from the dropdown menu
+Enter the quantity
+Click Add Order to add it to the list
+To remove an order, select it in the list and click Remove Selected
+Click Total Bill to see the total price
+⚠️ Validation Rules
+Quantity must be a number
+Quantity cannot be empty
+Must select an order to remove
+🎯 Learning Purpose
 
 This project helps beginners understand:
 
-* GUI development with Tkinter
-* Event-driven programming
-* Class and object usage
-* Basic data storage in lists
+GUI development with Tkinter
+Event-driven programming
+List and data handling
+Class and object usage
+🚀 Future Improvements
+Add database support (SQLite/MySQL) to save orders
+Generate printable receipts
+Add customer information
+Apply discounts or promotions
+Improve UI design with colors and layout
+👨‍💻 Author
 
----
-
-## 🚀 Future Improvements
-
-* Add database (SQLite/MySQL)
-* Export tickets to file (CSV/PDF)
-* Improve UI design
-* Add login system
-
----
-
-## 👨‍💻 Author
-
-**Sajid Ahsan Seyam**
-CSE Student | Aspiring Developer
-
----
-
-## ⭐ Support
+Sajid Ahsan Seyam
+CSE Student | Aspiring Game & Software Developer
 
 If you like this project, give it a ⭐ on GitHub!
