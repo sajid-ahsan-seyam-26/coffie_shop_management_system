@@ -27,7 +27,7 @@ A simple desktop application built using **Python Tkinter** to manage metro rail
 
 ```
 metro-system/
-│── main.py        # Main application file
+│── coffie.py        # Main application file
 │── README.md      # Project documentation
 ```
 
@@ -41,7 +41,7 @@ metro-system/
 4. Run the program:
 
 ```bash
-python main.py
+python coffie.py
 ```
 
 ---
