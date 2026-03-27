@@ -1,9 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox, simpledialog
 
-# --------------------------
-# Ticket and Metro System
-# --------------------------
 
 class Ticket:
     ticket_counter = 1
@@ -46,9 +43,6 @@ class MetroSystem:
         return sum(t.fare for t in self.tickets)
 
 
-# --------------------------
-# GUI
-# --------------------------
 
 class App:
     def __init__(self, root):
@@ -157,7 +151,7 @@ class App:
         messagebox.showinfo("Total", f"{total} BDT")
 
 
-# Run
+
 root = tk.Tk()
 App(root)
 root.mainloop()
